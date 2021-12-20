@@ -170,10 +170,10 @@ async def remove_username(new_List):
         if('@' in i or 't.me' in i or 'https://bit.ly/abcd' in i or 'https://bit.ly/123abcd' in i or 'telegra.ph' in i):
             new_List.remove(i)
     return new_List
-
+disable_web_page_preview=true
 async def addFooter(str):
-    footer = """ File Will be upload in The Link Shortly
-For More @HB4All""" 
+    footer = """ \n\n File Will be upload in Above Link Shortly\n\n If Link Is Not Working Error In Given Link\n\n
+For More @HB4All""" disable_web_page_preview=true
     return str + footer
 
 bot.run()
