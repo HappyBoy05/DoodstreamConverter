@@ -173,7 +173,7 @@ async def remove_username(new_List):
 disable_web_page_preview=true
 async def addFooter(str):
     footer = """ \n\n File Will be upload in Above Link Shortly\n\n If Link Is Not Working Error In Given Link\n\n
-For More @HB4All""" disable_web_page_preview=true
+For More @HB4All"""
     return str + footer
 
 bot.run()
