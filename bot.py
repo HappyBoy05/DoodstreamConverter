@@ -29,19 +29,19 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Welcome ⚡, {message.chat.first_name}!**\n\n"
-        "**I am the fastest Doodstream Link converter!\nSend any post with Dood link,\ni will automagically convert the Dood links to your account ✨\n Made By @SuryaPrabhas1245 🔥 **")
+        "**I am the Doodstream Link converter!\nSend Direct link,\ni will automatically convert the Dood links🔥 **")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @SuryaPrabhas1245 For more help-**")
+        "** Just Send Me Direct I Will Send You DoodStream If Link Is Not Working Wait It Upload **")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**Message Me Your Problem @SuryaPrabhas1245**")
+        "**Message Me Your Problem @HappyBoy59**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
@@ -174,9 +174,9 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
     ━━━━━━━━━━━━━━━
-How To Watch ?  :""" + HOWTO + """
+How To Watch ?  :""" Click The Link To Watch """
 ━━━━━━━━━━━━━━━
-⭐️ Join ➡️ t.me/""" + CHANNEL
+For More @HB4All""" 
     return str + footer
 
 bot.run()
