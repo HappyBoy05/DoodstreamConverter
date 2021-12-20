@@ -172,10 +172,7 @@ async def remove_username(new_List):
     return new_List
 
 async def addFooter(str):
-    footer = """
-    ━━━━━━━━━━━━━━━
-How To Watch ?  :""" Click The Link To Watch """
-━━━━━━━━━━━━━━━
+    footer = """ File Will be upload in The Link Shortly
 For More @HB4All""" 
     return str + footer
 
